@@ -30,7 +30,7 @@
 div.container_scroll {
     overflow: hidden; /* Hides any content that overflows the div */
     overflow-y: auto; /* Enables vertical scrolling */
-    max-height: 400px;/* Your preferred height */; /* Set a maximum height for the div */
+    max-height: 430px;/* Your preferred height */; /* Set a maximum height for the div */
     /* margin-bottom: 50px; */
   }
   

@@ -19,23 +19,6 @@ export const addToCartSlice = createSlice({
     addToCart: (state,action) => {
       var toAdd = action.payload;
       
-
-        //  state.cartItems = state.cartItems.map(item=> 
-        //   {
-        //     if (item && item.id && toAdd && toAdd.id) {
-        //       console.log(toAdd.id);
-        //       var isExist = state.cartItems.find(items=> items.id === toAdd.id);
-        //       return isExist;
-        //     } else {
-        //       // Handle the case where item is null or does not have a name property
-        //       console.log('Invalid item or missing name property:', item);
-        //     }
-        //   }
-        //   );
-
-         
-
-
       var isExist = state.cartItems.find(item=> item.id === toAdd.id);
 
       if (toAdd && toAdd.id) {

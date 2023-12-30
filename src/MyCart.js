@@ -281,9 +281,16 @@ console.log(alert)
                               <input
                                 type="text"
                                 id="shippingAddress"
-                                placeholder="Enter your shipping address"
-                                value=''
+                                placeholder="Mobile"
+                                className='w-full p-2 m-1 rounded-md ring-2 ring-teal-200 focus:outline-teal-400'
                               />
+                              
+                              <input
+                                type="text"
+                                id="shippingAddress"
+                                placeholder="Shipping Address"
+                                className='w-full p-2 m-1 rounded-md ring-2 ring-teal-200 focus:outline-teal-400'
+                              />    
                           </div>
                           <div class='flex bg-gray-100 rounded-lg shadow-md hover:bg-gray-50 p-4 justify-between'>
                           <div class='flex items-center justify-center w-full md:w-1/3'>TOTAL COST    </div>
